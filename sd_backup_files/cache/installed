@@ -1,0 +1,109 @@
+C:Q1KuZsGzDXOK6aHaNOfSC3+fklpfk=
+P:dnsmasq
+V:2.90-r3
+A:armhf
+S:169215
+I:316768
+T:A lightweight DNS, DHCP, RA, TFTP and PXE server
+U:https://www.thekelleys.org.uk/dnsmasq/
+L:GPL-2.0-or-later
+o:dnsmasq
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1714992652
+c:e8ce8d2e6cf6c8e6314d8f85665f32486df3e3ec
+k:100
+D:dnsmasq-common=2.90-r3 /bin/sh so:libc.musl-armhf.so.1
+p:cmd:dnsmasq=2.90-r3
+
+C:Q17QS3eq4xYq7ZR+5gLcHOWcDu4ag=
+P:dnsmasq-common
+V:2.90-r3
+A:noarch
+S:12103
+I:28322
+T:A lightweight DNS, DHCP, RA, TFTP and PXE server (common files)
+U:https://www.thekelleys.org.uk/dnsmasq/
+L:GPL-2.0-or-later
+o:dnsmasq
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1714992652
+c:e8ce8d2e6cf6c8e6314d8f85665f32486df3e3ec
+
+C:Q1kQJDvaoVB9xl0SdyQfYEjpx1F/Q=
+P:dnsmasq-openrc
+V:2.90-r3
+A:noarch
+S:3690
+I:5512
+T:A lightweight DNS, DHCP, RA, TFTP and PXE server (OpenRC init scripts)
+U:https://www.thekelleys.org.uk/dnsmasq/
+L:GPL-2.0-or-later
+o:dnsmasq
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1714992652
+c:e8ce8d2e6cf6c8e6314d8f85665f32486df3e3ec
+i:openrc dnsmasq-common=2.90-r3
+
+C:Q1lKch2KHgxDKY0dzNIuIxw6q1WDM=
+P:hostapd
+V:2.11-r1
+A:armhf
+S:644712
+I:1423353
+T:daemon for wireless software access points
+U:https://w1.fi/hostapd/
+L:BSD-3-Clause
+o:hostapd
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1731416249
+c:fc289295d7f89e9faa7af93beaaffb381a8d876d
+D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libssl.so.3
+p:cmd:hostapd=2.11-r1 cmd:hostapd_cli=2.11-r1 cmd:nt_password_hash=2.11-r1
+
+C:Q1yOUB956kbT3SL0uQ6d1kFYYjIhU=
+P:hostapd-openrc
+V:2.11-r1
+A:noarch
+S:2186
+I:1039
+T:daemon for wireless software access points (OpenRC init scripts)
+U:https://w1.fi/hostapd/
+L:BSD-3-Clause
+o:hostapd
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1731416249
+c:fc289295d7f89e9faa7af93beaaffb381a8d876d
+i:openrc hostapd=2.11-r1
+
+C:Q13Dc2JwX5+hlrxsKwN9F7IAjgVns=
+P:readline
+V:8.2.13-r0
+A:armhf
+S:116757
+I:251316
+T:GNU readline library
+U:https://tiswww.cwru.edu/php/chet/readline/rltop.html
+L:GPL-3.0-or-later
+o:readline
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1723326152
+c:7dff18068fb2ef6694db4f7bdc447755187e74ab
+D:so:libc.musl-armhf.so.1 so:libncursesw.so.6
+p:so:libreadline.so.8=8.2
+
+C:Q1hXRZoFFwt4q4wuIUe6SYOFvYAdg=
+P:socat
+V:1.8.0.3-r1
+A:armhf
+S:213517
+I:501156
+T:Multipurpose relay for binary protocols
+U:http://www.dest-unreach.org/socat/
+L:GPL-2.0-only WITH OpenSSL-Exception
+o:socat
+m:Celeste <cielesti@protonmail.com>
+t:1747304947
+c:be0833caee3020f089f02c5d7223e971a9a11ffb
+D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libreadline.so.8 so:libssl.so.3
+p:cmd:filan=1.8.0.3-r1 cmd:procan=1.8.0.3-r1 cmd:socat1=1.8.0.3-r1 cmd:socat=1.8.0.3-r1
+
