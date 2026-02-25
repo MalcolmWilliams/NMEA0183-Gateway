@@ -18,7 +18,7 @@ The recommended hardware is:
 
 This is intended to be a read-only gateway to provide wireless access to the NMEA data from the instrument. The setup involves connecting the TX+/- wires from the instrument to the RX+/- ports of the RS422-serial adapter. The total hardware cost should be under $50.
 
-*[Image showing hardware setup to be added here]*
+<img src="figures/nmea_gateway_hardware_example.png" alt="Image showing example hardware setup" width="500">
 
 # Repository Structure
 
